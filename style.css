@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(3, 32, 70);
+}
+.container{
+    padding-top: 4em ;
+    padding-left: 10em;
+}
+#text{
+    font-size: 4em; 
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.container h1 span{
+    border-bottom: 4px solid rgb(67, 98, 37);
+    color: rgb(67, 98, 37);
+}
+.Password{
+    width: 50%;
+    height: 4em;
+    background-color:white;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.Password input{
+   width: 90%;
+   border: 0; 
+   outline: 0;
+}
+.Password img, .button img{
+    height: 2em;
+     align-self: center;
+    
+}
+.button{
+    display: flex;
+    padding: 40px 0 20px 0;
+
+}
+.button button{
+   padding: 10px;
+   height: 4em;
+   width: 15em;
+   background-color: rgb(89, 175, 89);
+    display: flex; 
+}
+.button span{
+    font-weight: 400;
+    font-size: larger;
+}
+.press:hover{
+    background-color: rgb(150, 236, 150);
+    cursor:grab ;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    font-weight: 300;
+    border-radius: 5px;
+}
